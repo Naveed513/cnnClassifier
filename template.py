@@ -14,17 +14,17 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-project_name = "cnnClassifier"
+PROJECT_NAME = "cnnClassifier"
 
 list_of_files = [
     '.github/workflows/.gitkeep',
-    f'src/{project_name}/__init__.py',
-    f'src/{project_name}/components/__init__.py',
-    f'src/{project_name}/utils/__init__.py',
-    f'src/{project_name}/config/__init__.py',
-    f'src/{project_name}/pipeline/__init__.py',
-    f'src/{project_name}/entity/__init__.py',
-    f'src/{project_name}/constants/__init__.py',
+    f'src/{PROJECT_NAME}/__init__.py',
+    f'src/{PROJECT_NAME}/components/__init__.py',
+    f'src/{PROJECT_NAME}/utils/__init__.py',
+    f'src/{PROJECT_NAME}/config/__init__.py',
+    f'src/{PROJECT_NAME}/pipeline/__init__.py',
+    f'src/{PROJECT_NAME}/entity/__init__.py',
+    f'src/{PROJECT_NAME}/constants/__init__.py',
     'config/config.yaml',
     'params.yaml',
     'requirements.txt',
