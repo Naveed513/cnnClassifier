@@ -21,6 +21,7 @@ list_of_files = [
     f'src/{PROJECT_NAME}/__init__.py',
     f'src/{PROJECT_NAME}/components/__init__.py',
     f'src/{PROJECT_NAME}/utils/__init__.py',
+    f'src/{PROJECT_NAME}/utils/common.py',
     f'src/{PROJECT_NAME}/config/__init__.py',
     f'src/{PROJECT_NAME}/pipeline/__init__.py',
     f'src/{PROJECT_NAME}/entity/__init__.py',
@@ -29,7 +30,7 @@ list_of_files = [
     'params.yaml',
     'requirements.txt',
     'setup.py',
-    'research/trails.ipynb'
+    'research/trails.ipynb',
 ]
 
 
